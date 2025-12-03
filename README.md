@@ -1,5 +1,5 @@
 # CSE 11 Fall 2025 PA8 - MyStringBuilder
-**Due date: Thursday, December 4 @ 11:59PM PST**
+**Due date: Friday, December 5 @ 11:59PM PST**
 
 ## Provided Files
 - CharNode.java
@@ -195,7 +195,7 @@ Coding style is an important part of ensuring readability and maintainability of
 A full style guide can be found [here](https://github.com/CaoAssignments/style-guide/blob/main/README.md) and a sample styled file can be found [here](https://github.com/CaoAssignments/guides/blob/main/resources/SampleFile.java). If you need any clarifications, feel free to ask on Piazza.
 
 ## Submission
-Submit the following file(s) to Gradescope by **Thursday, December 4 @ 11:59PM PST**.
+Submit the following file(s) to Gradescope by **Friday, December 5 @ 11:59PM PST**.
  - MyStringBuilder.java
 
 **Important:** Even if your code does not pass all the tests, you will still be able to submit your homework to receive partial points for the tests that you passed. **Make sure your code compiles on Gradescope in order to receive partial credit. The file names need to be correct, otherwise no points will be given for the submission.** 

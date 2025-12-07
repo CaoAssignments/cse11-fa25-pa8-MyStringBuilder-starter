@@ -171,12 +171,12 @@ Since the MSB class is a way to manipulate and store Strings, we should have a `
 
 #### **`public String subString(int startIdx)`**
 - Returns a substring starting from `startIdx` to the end.
-- If `startIdx` is invalid (negative or greater than the length), throw an `IndexOutOfBoundsException`.
+- If `startIdx` is invalid, throw an `IndexOutOfBoundsException`.
 
 #### **`public String subString(int startIdx, int endIdx)`**
 - Returns a substring from `startIdx` (inclusive) to `endIdx` (exclusive).
 - If `startIdx == endIdx`, then empty string is returned. 
-- `startIdx` must be non-negative and less than the length of MyStringBuilder. `endIdx` must be less than or equal to the length of MyStringBuilder and greater than or equal to `startIdx`. If any of these conditions are not met, throw an `IndexOutOfBoundsException`. 
+- `startIdx` must be within the bounds of MyStringBuilder and non-negative, `endIdx` must be less than or equal to the length of MyStringBuilder and be greater than or equal to `startIdx`. If any are not true, throw an `IndexOutOfBoundsException`. 
 
 ## Style [5 Points]
 Coding style is an important part of ensuring readability and maintainability of your code. We will grade your code style in all submitted code files according to the style guidelines. Namely, there are a few things you must have in each file/class/method:
